@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 263256523
+    locked: 0
+  - name: JalanDiDepan
+    uniqueID: 3892383121
+    locked: 0
+  - name: Collision
+    uniqueID: 769008399
+    locked: 0
+  - name: Player
+    uniqueID: 2352582515
+    locked: 0
+  - name: JalnDiBelakang
+    uniqueID: 2657972231
+    locked: 0
+  - name: Decor
+    uniqueID: 2753572635
+    locked: 0
