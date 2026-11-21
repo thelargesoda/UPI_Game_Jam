@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dff94dedda2df841bf724f317cf2727, type: 3}
   m_Name: GuyDialogue
   m_EditorClassIdentifier: 
-  namaNpc: Guy
-  portraitNPC: {fileID: 0}
-  teksDialogue:
-  - Halo mentri perhutanan
-  - Saya adalah asep
+  namaNpc: Asep
+  portraitNPC: {fileID: 21300000, guid: d5333b3742d8a0942886c026d34b85b5, type: 3}
+  lineDialogue:
+  - Halo Ganteng
+  - Kok Kamu Ganteng Banget
   autoProgressLines: 0100
-  autoProgressDelay: 0
+  autoProgressDelay: 2
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: d4fa4cdb2c44c8446a6ca2ae301033cc, type: 3}
   pitchSuara: 1

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chest : MonoBehaviour, iInteractable
+public class Chest : MonoBehaviour, IInteractable
 {
     public bool isOpened { get; private set; }
     public string ChestID { get; private set; }
@@ -23,7 +23,7 @@ public class Chest : MonoBehaviour, iInteractable
         return !isOpened;
     }
 
-    public void interact()
+    public void Interact()
     {
         if (!CanInteract()) return;
         OpenChest();

@@ -8,7 +8,7 @@ public class NPCDialogue : ScriptableObject
 {
     public string namaNpc;
     public Sprite portraitNPC;
-    public string[] teksDialogue;
+    public string[] lineDialogue;
     public bool[] autoProgressLines;
     public float autoProgressDelay;
     public float typingSpeed = 0.05f;

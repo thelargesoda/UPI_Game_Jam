@@ -1,6 +1,6 @@
-public interface iInteractable
+public interface IInteractable
 {
-    void interact();
+    void Interact();
     bool CanInteract();
 
 }

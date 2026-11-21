@@ -44,6 +44,9 @@ TagManager:
   - name: Ground
     uniqueID: 263256523
     locked: 0
+  - name: Ground 2
+    uniqueID: 3055595755
+    locked: 0
   - name: JalanDiDepan
     uniqueID: 3892383121
     locked: 0
