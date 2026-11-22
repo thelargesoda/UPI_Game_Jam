@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PlantingGround
+    uniqueID: 3426910565
+    locked: 0
   - name: Ground
     uniqueID: 263256523
     locked: 0
