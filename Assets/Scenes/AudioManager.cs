@@ -19,6 +19,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip bgmProlog;
     public AudioClip bgmInGame;
     public AudioClip bgmTegang;
+    public AudioClip bgmGoodEnding; // Tambahan baru
+    public AudioClip bgmBadEnding;  // Tambahan baru
 
     [Header("Koleksi SFX")]
     public AudioClip sfxTombol;
@@ -27,6 +29,19 @@ public class AudioManager : MonoBehaviour
     public float durasiFade = 1.2f;
     private Coroutine prosesFade;
 
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    static void PastikanAudioManagerAda()
+    {
+        if (instance == null)
+        {
+            AudioManager prefab = Resources.Load<AudioManager>("AudioManager");
+            if (prefab != null)
+            {
+                Instantiate(prefab);
+            }
+        }
+    }
     void Awake()
     {
         if (instance == null)
@@ -59,7 +74,7 @@ public class AudioManager : MonoBehaviour
         AturVolumeSFX(volSFX);
     }
 
-    void SaatSceneBerubah(Scene scene, LoadSceneMode mode)
+   void SaatSceneBerubah(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "MainInGame")
         {
@@ -68,6 +83,14 @@ public class AudioManager : MonoBehaviour
         else if (scene.name == "Prolog")
         {
             GantiBGM(bgmProlog);
+        }
+        else if (scene.name == "GoodEnding")
+        {
+            GantiBGM(bgmGoodEnding);
+        }
+        else if (scene.name == "BadEnding")
+        {
+            GantiBGM(bgmBadEnding);
         }
         else
         {
