@@ -14677,6 +14677,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantingTilemap: {fileID: 755300070}
+  groundTilemap: {fileID: 1384347263}
+  ground2Tilemap: {fileID: 853074029}
+  clearableTilemaps:
+  - {fileID: 778230284}
+  - {fileID: 1011528044}
+  - {fileID: 521017278}
   treeParent: {fileID: 0}
   spawnOffset: {x: -3, y: -1, z: 0}
   tree1Prefab: {fileID: 3868298051951146312, guid: b3c61d4def8302749ab40f3955642579, type: 3}
@@ -33225,8 +33231,8 @@ Transform:
   m_GameObject: {fileID: 907025576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.57, y: 9.5, z: 0}
-  m_LocalScale: {x: 0.68880004, y: 2.9474323, z: 1}
+  m_LocalPosition: {x: -27.38, y: 9.5, z: 0}
+  m_LocalScale: {x: 0.330624, y: 2.9474323, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 521634281}
@@ -75363,13 +75369,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118094561}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.51, y: -11.56, z: 0}
-  m_LocalScale: {x: 4.92, y: 0.2006, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.70192015, w: 0.7122557}
+  m_LocalPosition: {x: 11.19, y: -6.5, z: 0}
+  m_LocalScale: {x: 2.9051619, y: 0.2006, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 592517421}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.163}
 --- !u!114 &2118094563
 MonoBehaviour:
   m_ObjectHideFlags: 0
