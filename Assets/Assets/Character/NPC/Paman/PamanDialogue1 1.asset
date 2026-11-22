@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dff94dedda2df841bf724f317cf2727, type: 3}
+  m_Name: PamanDialogue1 1
+  m_EditorClassIdentifier: 
+  namaNpc: Paman
+  portraitNPC: {fileID: 21300000, guid: f131f8f58248d8d46b25a91dd7c67691, type: 3}
+  lineDialogue:
+  - Dateng Juga Kamu
+  autoProgressLines: 0101
+  autoProgressDelay: 2
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  pitchSuara: 1

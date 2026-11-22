@@ -16,7 +16,7 @@ MonoBehaviour:
   portraitNPC: {fileID: 21300000, guid: 4bd9b6b3a3d081e4b8db068cdba9eaec, type: 3}
   lineDialogue:
   - Haduh ga nyangka balik lagi ke kampung
-  - Hmm, kok banyak asep ya
+  - Rumahnya sepertinya didepan
   autoProgressLines: 0100
   autoProgressDelay: 2
   typingSpeed: 0.05

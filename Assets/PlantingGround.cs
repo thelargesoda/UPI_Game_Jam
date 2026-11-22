@@ -587,7 +587,7 @@ public class PlantingScript : MonoBehaviour
 
         UpdateCursorHighlight();
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             TogglePupukPanel();
         }
